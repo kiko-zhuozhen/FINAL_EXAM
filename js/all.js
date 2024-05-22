@@ -44,7 +44,7 @@ function printData(xmlDoc){
         document.getElementById('row'+index).appendChild(newCol3);  
 
         let newCol4 = document.createElement('td');
-        newCol4.innerHTML = element.children[4].children[1].children[1].innerHTML;
+        newCol4.innerHTML = element.children[4].children[1].children[1].innerHTML + " " + element.children[4].children[2].children[1].innerHTML;
         document.getElementById('row'+index).appendChild(newCol4); 
 
         let newCol5 = document.createElement('td');
