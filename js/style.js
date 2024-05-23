@@ -3,8 +3,8 @@ document.addEventListener('DOMContentLoaded', function(){
 })
 
 function loadXMLDoc() {
-    //const url='https://ochre.lib.uchicago.edu/ochre?uuid=a6e6049c-66dc-43ee-968d-e74c4909f496';
-    const url = "./xml/sample-1.xml";
+    const url='https://ochre.lib.uchicago.edu/ochre?uuid=a6e6049c-66dc-43ee-968d-e74c4909f496';
+    //const url = "./xml/sample-1.xml";
 
     let xmlhttp = new XMLHttpRequest();
 
